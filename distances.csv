@@ -1,27 +1,27 @@
 city,area,x,y,demand_tbps
 Warszawa,1,100,65,
 Skierniewice,1,92,62,197
-Łódź,1,85,58,317
+Lodz,1,85,58,317
 Konin,1,68,64,236
 Sieradz,1,72,55,178
-Piotrków,1,89,51,139
+Piotrkow,1,89,51,139
 Radom,1,102,50,288
 Kielce,2,98,42,
-Częstochowa,2,79,40,278
+Czestochowa,2,79,40,278
 Bytom,2,76,31,163
 Gliwice,2,73,30,105
 Sosnowiec,2,80,29,143
-Kraków,2,89,25,331
+Krakow,2,89,25,331
 Bielsko,2,79,20,276
 Katowice,2,78,28,263
-Jastrzębie-Zdrój,2,74,23,137
-Wodzisław Śląski,2,71,23,119
-Poznań,3,54,68,251
-Zielona Góra,3,39,60,121
+Jastrzebie-Zdroj,2,74,23,137
+Wodzislaw Slaski,2,71,23,119
+Poznan,3,54,68,251
+Zielona Gora,3,39,60,121
 Leszno,3,51,58,84
 Kalisz,3,65,58,207
 Legnica,3,45,47,176
-Wrocław,3,54,45,133
-Jelenia Góra,3,40,42,167
-Wałbrzych,3,46,39,129
+Wroclaw,3,54,45,133
+Jelenia Gora,3,40,42,167
+Walbrzych,3,46,39,129
 Opole,3,67,37,
