@@ -94,6 +94,9 @@ print(f"  existing cable (Radom-Kielce, Gliwice-Opole): {existing:.3f}")
 print(f"  new cable to lay: {m.ObjVal - existing:.3f}")
 print("Cities in order:", " -> ".join(route))
 
+legs = [0.0] + [d[i, j] for i, j in zip(route, route[1:])]  # cable length into each city
 with open(SOLUTION, "w", newline="", encoding="utf-8") as f:
-    csv.writer(f).writerows([("order", "city"), *enumerate(route, 1)])
+    w = csv.writer(f)
+    w.writerow(("order", "city", "leg_length", "cumulative_length"))
+    w.writerows(zip(range(1, len(route) + 1), route, legs, itertools.accumulate(legs)))
 print(f"Solution written to {SOLUTION.name}")
